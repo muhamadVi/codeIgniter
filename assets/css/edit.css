@@ -1,0 +1,376 @@
+/*
+    Anda dapat melakukan kostumisasi warna tema dengan beberapa properti css di bawah ini.
+    Daftar kode warna html dapat dilihat dalam file yang telah saya lampirkan dalam
+    folder "Kode Warna HTML"
+ */
+
+
+
+body {
+	background: #eee !important
+		/* warna background */
+}
+
+/* ======================= INPUT FORM ======================= */
+.input-field label {
+	color: #161616 !important
+		/* warna huruf label */
+}
+
+.input-field input[type=text]:focus+label,
+.input-field input[type=number]:focus+label,
+.input-field input[type=email]:focus+label,
+.input-field input[type=url]:focus+label,
+.input-field textarea.materialize-textarea:focus+label {
+	color: #161616 !important
+		/* warna huruf label ketika diisi */
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=number]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=url]:focus,
+.input-field textarea.materialize-textarea:focus {
+	border-bottom: 1px solid #4caf50 !important;
+	/* warna border input ketika diisi */
+	box-shadow: 0 1px 0 0 #4caf50 !important;
+	/* warna border input ketika diisi */
+}
+
+.input-field input[type=text].valid,
+.input-field input[type=number].valid,
+.input-field input[type=email].valid,
+.input-field input[type=url].valid {
+	border-bottom: 1px solid #8bc34a !important;
+	/* warna border input valid */
+	box-shadow: 0 1px 0 0 #8bc34a !important
+		/* warna border input valid */
+}
+
+.input-field input[type=text].invalid,
+.input-field input[type=number].invalid,
+.input-field input[type=email].invalid,
+.input-field input[type=url].invalid {
+	border-bottom: 1px solid #f44336 !important;
+	/* warna border input tidak valid */
+	box-shadow: 0 1px 0 0 #f44336 !important
+		/* warna border input tidak valid */
+}
+
+.input-field .prefix.active {
+	color: #4caf50 !important
+		/* warna huruf icon */
+}
+
+[type="radio"]:checked+label:after,
+[type="radio"].with-gap:checked+label:before,
+[type="radio"].with-gap:checked+label:after {
+	border: 2px solid #4caf50
+		/* warna border tombol radio */
+}
+
+[type="radio"]:checked+label:after,
+[type="radio"].with-gap:checked+label:after {
+	background: #4caf50 !important
+		/* warna background tombol radio */
+}
+
+/* ======================= TOMBOL ======================= */
+.btn.default {
+	background: #388e3c !important;
+	/* warna tombol hijau */
+	color: #fff !important
+		/* warna huruf tombol hijau */
+}
+
+.btn.primary {
+	background: #ff9800 !important;
+	/* warna tombol orange */
+	color: #fff !important
+		/* warna huruf tombol orange */
+}
+
+a.btn {
+	color: #fff !important
+		/* warna huruf tombol slider */
+}
+
+a.btn:hover {
+	color: #fff !important
+		/* warna huruf tombol slider ketika disorot mouse */
+}
+
+/* ======================= LINK/TAUTAN ======================= */
+a {
+	color: #4caf50 !important
+		/* warna link */
+}
+
+a:hover {
+	color: #ff9800 !important
+		/* warna link ketika disorot mouse */
+}
+
+/* ======================= HEADER ======================= */
+.header {
+	background: #7cb342 !important
+		/* warna background header */
+}
+
+/* ======================= HARI & JAM ======================= */
+.day {
+	background: #558b2f !important
+		/* warna background hari */
+}
+
+.time {
+	background: #9e9d24 !important
+		/* warna background jam */
+}
+
+.day:hover {
+	background: #8bc34a !important
+		/* warna background hari ketika disorot mouse */
+}
+
+.time:hover {
+	background: #cddc39 !important
+		/* warna background jam ketika disorot mouse */
+}
+
+/* ======================= MENU ======================= */
+nav#menu {
+	background: #388e3c !important
+		/* warna background menu */
+}
+
+nav a,
+nav a:hover {
+	color: #fff !important
+		/* warna huruf menu ketika disorot mouse */
+}
+
+.dropdown-content {
+	background: #388e3c !important
+		/* warna background dropdown menu */
+}
+
+.dropdown-content li:hover,
+.dropdown-content li.active,
+.dropdown-content li.selected,
+.dropdown-content li.active.selected {
+	background: #2e7d32 !important
+		/* warna background dropdown menu ketika aktif */
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+	color: #fff !important
+		/* warna huruf menu dropdown */
+}
+
+/* ======================= SIDENAV / MENU MOBILE ======================= */
+.side-nav {
+	background: #388e3c !important
+		/* warna background menu mobile */
+}
+
+.side-nav a {
+	color: #fff !important
+		/* warna link menu mobile */
+}
+
+.collapsible-body {
+	background: #4caf50 !important
+		/* warna background menu mobile dropdown */
+}
+
+/* ======================= SLIDER ======================= */
+.slider .indicators .indicator-item.active {
+	background-color: #4caf50 !important
+		/* warna indikator slider */
+}
+
+.line-slider {
+	background: #ff9800 !important
+		/* warna garis bawah slider */
+}
+
+/* ======================= NAMA SEKOLAH ======================= */
+#school {
+	background: #388e3c !important;
+	/* warna background nama sekolah */
+	color: #fff !important
+		/* warna huruf nama sekolah */
+}
+
+/* ======================= BERITA ======================= */
+.card-title.berita:hover {
+	color: #ff9800 !important
+		/* warna judul berita ketika disorot mouse */
+}
+
+/* ======================= SEKILAS INFO ======================= */
+.card.sekilas-info {
+	background: #8bc34a !important;
+	/* warna background sekilas info */
+	color: #fff !important
+		/* warna huruf background sekilas info */
+}
+
+/* ======================= MOTIVASI ======================= */
+#motivasi {
+	background: #388e3c !important;
+	/* warna background motivasi */
+	color: #fff !important
+		/* warna hurus motivasi */
+}
+
+.motivator {
+	color: #ffeb3b !important
+		/* warna huruf motivator */
+}
+
+/* ======================= BADGE ======================= */
+.new.badge {
+	background: #388e3c !important
+		/* warna background angka pada arsip */
+}
+
+.badge:hover {
+	background: #ff9800 !important
+		/* warna background angka pada arsip ketika disorot mouse */
+}
+
+/* ======================= GALLERY HOMEPAGE  ======================= */
+#gallery-head {
+	background: #388e3c !important;
+	/* warna background gallery pada homepage */
+	border-bottom: 8px solid #ff9800 !important;
+	/* warna border gallery pada homepage */
+	color: #fff !important
+		/* warna huruf gallery pada homepage */
+}
+
+/* ======================= LOKASI / PETA ======================= */
+#location-home {
+	background: #388e3c !important;
+	/* warna background lokasi/peta pada homepage */
+	border-bottom: 8px solid #ff9800 !important;
+	/* warna border lokasi/peta pada homepage */
+	color: #fff !important
+		/* warna huruf lokasi/peta pada homepage */
+}
+
+/* ======================= FOOTER ======================= */
+.page-footer {
+	background: #388e3c !important;
+	/* warna background footer */
+	border-top: 8px solid #ff9800 !important;
+	/* warna border atas footer */
+	color: #fff !important
+		/* warna huruf footer */
+}
+
+.page-footer a {
+	color: #fff !important
+		/* warna link footer */
+}
+
+.page-footer a:hover {
+	color: #ff9800 !important
+		/* warna link footer ketika disorot mouse */
+}
+
+/* ======================= COPYRIGHT ======================= */
+footer.page-footer .footer-copyright {
+	background: #212121 !important
+		/* warna background copyright */
+}
+
+.footer a {
+	color: #ff9800 !important
+		/* warna link copyright */
+}
+
+/* ======================= HALAMAN AGENDA ======================= */
+.fc-head {
+	background: #a5d6a7 !important;
+	/* warna background nama hari */
+	color: #161616 !important
+		/* warna huruf nama hari */
+}
+
+.fc-state-highlight {
+	background: #eeff41 !important
+}
+
+.fc-event-container,
+.fc-event {
+	background: #ff9800 !important;
+	/* warna background kegiatan */
+	border: 1px solid #ff9800 !important
+		/* warna border kegiatan */
+}
+
+.fc-title {
+	color: #fff !important
+		/* warna huruf kegiatan */
+}
+
+.fc-today-button,
+.fb-button {
+	background: #ff9800 !important;
+	/* warna background tombol hari ini */
+	color: #fff !important
+		/* warna huruf tombol hari ini */
+}
+
+.fc-state-default {
+	background: #388e3c !important;
+	/* warna background tombol < > */
+	color: #fff !important
+		/* warna huruf tombol < > */
+}
+
+.fc-state-hover,
+.fc-state-down,
+.fc-state-active,
+.fc-state-disabled {
+	background: #66bb6a !important;
+	/* warna background tombol disable */
+	color: #fff !important
+		/* warna huruf tombol disable */
+}
+
+/* ======================= HALAMAN GALLERY ALBUM ======================= */
+.collection a.collection-item {
+	color: #388e3c !important
+		/* warna link album poto */
+}
+
+.collection a.collection-item:hover {
+	color: #ff9800 !important
+		/* warna link album poto ketika disorot mouse */
+}
+
+/* ======================= PAGINASI ======================= */
+.pagination li {
+	background: #388e3c !important
+		/* warna background paginasi */
+}
+
+.pagination li:hover {
+	background: #8bc34a !important
+		/* warna background paginasi ketika disorot mouse */
+}
+
+.pagination li a {
+	color: #fff !important
+		/* warna link paginasi */
+}
+
+.pagination li.active {
+	background: #ff9800 !important
+		/* warna link paginasi yang sedang aktif */
+}

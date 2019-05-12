@@ -1,0 +1,262 @@
+.slider h3,
+.slider h5, 
+.clients h3 {
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.titik {
+	border-bottom: 1px dotted #9e9e9e;
+	padding-bottom: 8px;
+	margin-bottom: 10px;
+}
+
+#sambutan-home {
+	min-height: 270px;
+}
+
+.line-slider {
+
+	height: 8px;
+	background: #ff9800;
+
+}
+
+.widget-home {
+	margin-bottom: 30px;
+}
+
+#sambutan-home {
+	min-height: 270px;
+}
+
+.widget-home {
+	margin-bottom: 30px;
+}
+
+h4.wh-title,
+h5.wh-title,
+.widget-title {
+	border-bottom: 1px dotted #9e9e9e;
+	padding: 10px;
+	margin: 30px 0 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.rounded {
+	border-radius: 3px;
+}
+
+.kepsek-home {
+
+	width: 140px;
+	height: auto;
+	padding-left: 10px;
+	margin-left: 30%;
+}
+
+h4.wh-title:after,
+h5.wh-title:after,
+.widget-title:after {
+	content: '';
+	position: absolute;
+	height: 25px;
+	width: 100%;
+	margin-left: 10px;
+}
+
+.sambutan {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 4px;
+}
+
+#sekilas-home {
+	min-height: 390px;
+}
+
+.widget-home {
+	margin-bottom: 30px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 230px;
+  height: 230px;
+  
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.parallax-container{
+	height: auto;
+}
+
+.relation img {
+	
+	height: 100px;
+	width: 100px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5) );
+
+}
+
+.relation img:hover{
+	box-shadow:0 0 0 rgba(0,0,0,0.16),0 0 0 rgba(0,0,0,0.23);
+	transform:scale(1.2)
+}
+
+
+.relation h6{
+		filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5) );
+		color: white;
+
+}
+
+section{
+	padding:1px 0 0;
+}
+
+
+.fit{
+	min-height: 240px !important;
+	max-height: 240px !important;
+	height:100% !important;
+	width:100% !important;
+}
+
+.zoom{
+	transition:ease all .6s;
+}
+.zoom:hover{
+	transform:scale(1.15);
+	box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+}
+
+#location-home{
+	background:#388e3c;
+	color:#fff;
+	border-bottom:8px solid #ff9800;
+	padding:40px 0;
+	margin-top:15px
+}
+
+iframe.maps{
+	width:100%!important;
+	height:450px;
+	margin-bottom:-26px
+}
+
+p.school-info{
+	font-size:17px;
+	text-align: center;
+	margin-bottom: -12px;
+}
+
+.page-footer{
+	background:#388e3c!important;
+	color:#fff;
+	border-top:8px solid #ff9800
+}
+
+.page-footer a{
+	color: #fff;
+}
+
+.wf-title{
+	border-bottom: 1px dotted #fff;
+	padding: 10px;
+}
+
+.logo-footer{
+	width: 100px;
+}
+
+.list{
+	padding: 6px 0;
+}
+
+.social {
+	margin-bottom: -12px;
+}
+
+.social ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+.social-icons{
+	border-radius:50%;
+	box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+	width:40px;
+	height:40px;
+	margin-bottom:5px;
+	transition:ease all .5s
+}
+
+.social-icons:hover{
+	box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+	transform:scale(1.2)
+}
+
+footer.page-footer .footer-copyright{
+	background:#212121;
+	padding:25px 0;
+	line-height:30px
+}
+
+.copyright {
+    float: left;
+    text-align: left;
+}
+
+.copyright, .developer {
+    width: 50%;
+}
+
+.footer a {
+    color: #ff9800 !important /* warna link copyright */;
+}
+
+.developer {
+    float: right;
+    text-align: right;
+}
+
+
+
